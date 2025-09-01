@@ -93,9 +93,7 @@ const Settings: React.FC = () => {
   };
 
   const handleLoadDemoData = () => {
-    const demoSessions = dateUtils.generateDemoData();
-    storage.saveSessions([...storage.getSessions(), ...demoSessions]);
-    alert('Datos de demostración cargados correctamente');
+    alert('Función de datos demo no disponible en esta versión');
   };
 
   if (loading) {
